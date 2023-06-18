@@ -1,0 +1,39 @@
+.accordion-body {
+    background-color: $color2 ;
+}
+
+
+.custom-body .accordion-item .accordion-button {
+    background-color: $color7;
+    border-radius: 7px;
+    border: solid 1px $color3; 
+}
+
+.accordion-body img{
+    width: 100%;
+    height: auto;
+}
+.pie-pag h3{
+    
+    text-align: center;
+    margin-top: $espacio-chico;
+    margin-bottom: $espacio-chico;
+    
+}
+button.accordion-button{
+    font-size: $fuente-chica;
+    font-weight: bold;
+    width: 100%;
+    
+}
+div#accordionExample.accordion{
+    width: 98%;
+}
+@media(min-width: $tablet){
+    button.accordion-button{
+        font-size: $fuente-media;
+    }
+    .accordion-body{
+        font-size: $fuente-media;
+    }
+}

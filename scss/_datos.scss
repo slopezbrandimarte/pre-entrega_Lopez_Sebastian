@@ -1,0 +1,47 @@
+section.lista{
+    text-align: center;
+    text-decoration: none;
+}
+h3.datos {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline wavy; 
+    text-decoration-color: $color3; 
+    text-decoration-line: underline; 
+}
+li{
+    list-style: none;
+    margin-bottom: $espacio-mini;
+}
+
+
+.lista {
+    
+    gap: 10px;
+    h4 {
+        display: inline;
+        font-weight: bold;
+    }
+    
+    p {
+        display: inline;
+        //margin-left: 10px;
+    }
+
+}
+@media(min-width:$tablet){
+    li{
+        text-align: start;
+        margin-bottom: $espacio-chico;
+    }
+    ul{
+        margin-bottom: $espacio-grande;
+    }
+}
+
+.historia-masaje p h3{
+    margin-top: 20px;
+    text-align: center;
+    justify-content:center;
+}

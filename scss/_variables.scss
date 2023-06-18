@@ -1,0 +1,49 @@
+/*colores*/
+$color1: #E5F9DB;
+$color2: #A0D8B3;
+$color3: #A2A378;
+$color4: #83764F;
+$color5: #3b3b3b;
+$color6: #757474;
+$color7: #c8c8c8;
+
+
+// fuentes
+$fuente-principal:  'Roboto', sans-serif;
+$fuente-chica: 14px;
+$fuente-media: 20px;
+$fuente-grande: 30px;
+$fuente-xl:40px;
+//resolcuines de pantalla
+$tablet: 768px;
+$desktop:1024px;
+$desktopXG: 1200px;
+
+//separaciones
+$espacio-mini: 10px;
+$espacio-chico: 20px;
+$espacio-medio: 40px;
+$espacio-grande: 60px;
+
+
+
+/*MEDIDAS*/
+$espaciado: 50px;
+
+
+@mixin flex-column-centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+@mixin grid-alineado {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+

@@ -1,0 +1,42 @@
+main{
+    @include flex-column-centrado;
+
+    .precios img{
+        width: 320px;
+        height: auto;
+        
+    }
+}
+h3.decor{
+    font-weight: bold;
+    text-align: center;
+    font-size: $fuente-media;
+    margin-top: $espacio-chico;
+    margin-bottom: $espacio-medio;
+}
+.table{
+    font-size: $fuente-chica;
+}
+
+@media(min-width:$tablet){
+    h3.decor{
+        font-size: $fuente-grande;
+    }
+    ul.tratamientos{
+        font-size: $fuente-media;
+    }
+    .table{
+        font-size: $fuente-media;
+    }
+}
+@media(min-width:$desktop){
+    h3.decor{
+        font-size: $fuente-xl;
+    }
+    ul.tratamientos{
+        font-size: $fuente-grande;
+    }
+    .table{
+        font-size: $fuente-grande;
+    }
+}
